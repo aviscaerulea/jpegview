@@ -2,11 +2,6 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## 操作ルール
-
-- `git commit` と `git push` はユーザ確認なしで実行してよい
-- push 先は `aviscaerulea` リモート（`git push aviscaerulea master`）
-
 ## フォーク元からの変更点
 
 フォーク元: https://github.com/sylikc/jpegview

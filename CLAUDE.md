@@ -22,6 +22,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 | `35bc05d` | INI コメントの日本語化改善、デフォルト値変更（IniEditor→system、NavigateWithMouseWheel→true） |
 | `c97922f` | サードパーティライブラリ更新: libjpeg-turbo 3.1.3, libpng 1.6.54 (APNG パッチ対応), zlib 1.3.1.2, libwebp 1.6.0, libjxl 0.11.1, libheif 1.21.2, dav1d 1.5.3, LibRaw 0.22.0, lcms2 2.18 |
 
+### サードパーティライブラリ バージョン比較
+
+| ライブラリ | フォーク元 | 現在 | 主な変更内容 |
+|---|---|---|---|
+| **libjpeg-turbo** | 2.1.91 | **3.1.3** | メジャーバージョンアップ、パフォーマンス改善 |
+| **libpng-apng** | 1.6.40 | **1.6.54** | セキュリティ修正（CVE-2026-22695, CVE-2026-22801） |
+| **zlib** | 1.3 | **1.3.1.2** | マイナー更新 |
+| **libwebp** | 1.3.2 | **1.6.0** | AVX2/SSE2 最適化追加 |
+| **libjxl** | 0.9-snapshot | **0.11.1** | 正式版へ移行、セキュリティ修正 |
+| **libheif** | 1.19.8 | **1.21.2** | 機能追加、安定性向上 |
+| **libde265** | 1.0.16 | 1.0.16 | 変更なし（最新） |
+| **libavif** | 1.3.0 | 1.3.0 | 変更なし（最新） |
+| **dav1d** | 1.5.1 | **1.5.3** | 小更新 |
+| **LibRaw** | 0.21.1 | **0.22.0** | DNG 1.7 対応追加 |
+| **lcms2** | 2.15 | **2.18** | セキュリティ修正含む |
+
 ## ビルド
 
 - **IDE**: Visual Studio 2026 (PlatformToolset v145)
